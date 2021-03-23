@@ -8,10 +8,33 @@ body {
 
 /* ------------------- ID's ---------------------- */
 
-#mit-isbj-header {
+#header-para {
     text-align: center;
 }
 
+#first-pic {
+    position: relative;
+    margin-right: 10%;
+    left: 5px;
+}
+
+#second-pic {
+    position: relative;
+    right: 5px;
+    margin-left: 3%;
+    width: 180px;
+    height: 100px;
+}
+
+#mit-isbj-header {
+    position: relative;
+    top: -60px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 #mit-adt-header {
-    text-align: center;
+    position: relative;
+    top: -50px;
+    font-size: 27px;
 }
