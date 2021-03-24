@@ -1,7 +1,7 @@
 /* ------------------- Elements ---------------------- */
 
 body {
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -22,8 +22,8 @@ nav li {
     display: inline;
     margin-right: 50px;
     color: white;
-    font-size: 25px;
-    font-weight: 100;
+    font-size: 23px;
+    font-weight: 300;
 }
 
 nav li a {
@@ -74,4 +74,39 @@ nav li a {
     position: relative;
     top: -30px;
     width: 100%;
+}
+
+#download-apply-buttons {
+    height: 46px;
+    width: 900px;
+    margin: auto;
+}
+
+#download-brochure-button {
+    background-image: linear-gradient(black, grey);
+    height: 46px;
+    width: 439px;
+    margin-right: 3px;
+    padding-top: 7px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#apply-now-button{
+    background-color: rgb(240, 50, 50);
+    height: 46px;
+    width: 439px;
+    margin-left: 3px;
+    padding-top: 7px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#courses-header {
+    margin: auto;
+    height: 50px;
+    width: 300px;
+    margin-top: 100px;
 }
