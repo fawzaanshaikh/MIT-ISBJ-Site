@@ -40,7 +40,7 @@ aside {
 }
 
 a:visited {
-    color: blue;
+    color: unset;
 }
 
 /* ------------------- Classes ---------------------- */
@@ -178,15 +178,67 @@ a:visited {
 }
 
 #b-arts-content {
-    height: 250px;
+    height: 260px;
     width: 450px;
     background-color: rgb(240, 240, 240);
     margin-top: -25px;
 }
 
 #m-arts-content {
-    height: 250px;
+    height: 260px;
     width: 450px;
     background-color: rgb(220, 220, 220);
     margin-top: -25px;
+}
+
+#gallery-buttons {
+    height: 2px;
+    width: 810px;
+    margin: auto;
+    text-align: center;
+}
+
+#register-media-career {
+    position: relative;
+    top: 30px;
+    height: 100px;
+    width: 400px;
+    margin-right: 2px;
+}
+
+#photo-gallery {
+    position: relative;
+    top: 30px;
+    height: 100px;
+    width: 400px;
+    margin-left: 2px;
+}
+
+#register-media-career-img {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+}
+
+#photo-gallery-img {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+}
+
+#video-gallery {
+    position: relative;
+    top: 5px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#video-gallery-div {
+    position: relative;
+    top: 40px;
+    height: 40px;
+    width: inherit;
+    background-color: rgb(220, 220, 220); 
 }
