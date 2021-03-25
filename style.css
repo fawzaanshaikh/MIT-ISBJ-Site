@@ -39,6 +39,10 @@ aside {
     float: right;
 }
 
+a:visited {
+    color: blue;
+}
+
 /* ------------------- Classes ---------------------- */
 
 .specializations {
@@ -53,6 +57,16 @@ aside {
     position: relative;
     top: 40px;
     left: 40px;
+    font-size: 19px;
+}
+
+.read-more-link {
+    position: relative;
+    top: 50px;
+    left: 340px;
+    font-weight: 700;
+    font-size: 19px;
+    color: blue;
 }
 
 /* ------------------- ID's ---------------------- */
