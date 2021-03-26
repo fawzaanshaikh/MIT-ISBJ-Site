@@ -7,6 +7,9 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("Images/bgg.png");
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 nav {
@@ -75,15 +78,16 @@ a:visited {
 }
 
 .why-mit-content {
-    margin-top: 60px;
+    margin-top: 70px;
     margin-left: 60px;
 }
 
 .reasons {
     margin-top: 80px;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 700;
+    line-height: 80px;
 }
 
 .reason {
