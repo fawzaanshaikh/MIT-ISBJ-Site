@@ -1,5 +1,10 @@
 /* ------------------- Elements ---------------------- */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -202,14 +207,14 @@ a:visited {
     height: 260px;
     width: 450px;
     background-color: rgb(240, 240, 240);
-    margin-top: -25px;
+    margin-top: -5px;
 }
 
 #m-arts-content {
     height: 260px;
     width: 450px;
     background-color: rgb(220, 220, 220);
-    margin-top: -25px;
+    margin-top: -5px;
 }
 
 #gallery-buttons {
