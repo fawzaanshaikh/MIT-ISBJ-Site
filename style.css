@@ -136,16 +136,16 @@ a:visited {
 
 #download-apply-buttons {
     height: 46px;
-    width: 900px;
+    width: 690px;
     margin: auto;
 }
 
 #download-brochure-button {
     background-image: linear-gradient(black, grey);
-    height: 46px;
-    width: 439px;
+    height: 40px;
+    width: 339px;
     margin-right: 3px;
-    padding-top: 7px;
+    padding-top: 3px;
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -155,10 +155,10 @@ a:visited {
 
 #apply-now-button{
     background-color: rgb(230, 0, 0);
-    height: 46px;
-    width: 439px;
+    height: 40px;
+    width: 339px;
     margin-left: 3px;
-    padding-top: 7px;
+    padding-top: 3px;
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -295,6 +295,6 @@ a:visited {
 #why-mit-text {
     font-size: 22px;
     font-weight: 300;
-    margin-top: -1px;
+    margin-top: 40px;
     line-height: 30px;
 }
