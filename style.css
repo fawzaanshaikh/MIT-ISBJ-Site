@@ -1,1 +1,302 @@
 
+/* ------------------- Elements ---------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("Images/bgg.png");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+nav {
+    position: relative;
+    top: -30px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 15px 0px 5px 90px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    filter: drop-shadow(0 0 0.65rem #999);
+}
+
+section {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
+a:visited {
+    color: unset;
+}
+
+/* ------------------- Classes ---------------------- */
+
+.specializations {
+    position: relative;
+    top: 60px;
+    left: 45px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.specializations-list {
+    position: relative;
+    top: 80px;
+    left: 80px;
+    font-size: 19px;
+}
+
+.read-more-link {
+    position: relative;
+    top: 100px;
+    left: 340px;
+    font-weight: 700;
+    font-size: 19px;
+    color: blue;
+}
+
+.why-mit-content {
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.reasons {
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.reason {
+    position: relative;
+    top: -30px;
+}
+
+/* ------------------- ID's ---------------------- */
+
+#header-para {
+    text-align: center;
+}
+
+#first-pic {
+    position: relative;
+    margin-right: 10%;
+    left: 5px;
+    height: 110px;
+    width: 120px;
+}
+
+#second-pic {
+    position: relative;
+    right: 5px;
+    margin-left: 3%;
+    width: 200px;
+    height: 100px;
+}
+
+#mit-isbj-header {
+    position: relative;
+    top: -60px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#mit-adt-header {
+    position: relative;
+    top: -50px;
+    font-size: 27px;
+    font-weight: 100;
+    color: rgb(100, 100, 100);
+}
+
+#admissions-open {
+    position: relative;
+    top: -30px;
+    width: 100%;
+}
+
+#download-apply-buttons {
+    height: 46px;
+    width: 690px;
+    margin: auto;
+}
+
+#download-brochure-button {
+    background-image: linear-gradient(black, grey);
+    height: 40px;
+    width: 339px;
+    margin-right: 3px;
+    padding-top: 3px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-style: solid;
+    border: black;
+}
+
+#apply-now-button{
+    background-color: rgb(230, 0, 0);
+    height: 40px;
+    width: 339px;
+    margin-left: 3px;
+    padding-top: 3px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-style: solid;
+    border: rgb(230, 0, 0);
+}
+
+#courses-header {
+    margin: auto;
+    height: 50px;
+    width: 318px;
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+#courses-div {
+    height: 100px;
+    width: 900px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#b-arts-header {
+    height: 35px;
+    width: 450px;
+    padding-top: 3px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#m-arts-header {
+    height: 35px;
+    width: 450px;
+    padding-top: 3px;
+    background-color: rgb(0, 0, 190);
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#b-arts-content {
+    height: 300px;
+    width: 450px;
+    background-color: rgb(240, 240, 240);
+    margin-top: -5px;
+}
+
+#m-arts-content {
+    height: 300px;
+    width: 450px;
+    background-color: rgb(220, 220, 220);
+    margin-top: -5px;
+}
+
+#gallery-buttons {
+    height: 2px;
+    width: 810px;
+    margin: auto;
+    text-align: center;
+}
+
+#register-media-career {
+    position: relative;
+    top: 30px;
+    height: 100px;
+    width: 400px;
+    margin-right: 2px;
+}
+
+#photo-gallery {
+    position: relative;
+    top: 30px;
+    height: 100px;
+    width: 400px;
+    margin-left: 2px;
+}
+
+#register-media-career-img {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    filter: drop-shadow(0 0 0.65rem #999);
+}
+
+#photo-gallery-img {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    filter: drop-shadow(0 0 0.65rem #999);
+}
+
+#video-gallery {
+    height: initial;
+    width: 810px;
+    margin: auto;
+    margin-top: 40px;
+    filter: drop-shadow(0 0 0.65rem #999);
+}
+
+#why-mit-div {
+    position: relative;
+    top: 300px;
+    width: 100%;
+    color: white;
+}
+
+#why-mit-section {
+    background-color: black;
+    width: 65%;
+    height: 450px;
+}
+
+#why-mit-aside {
+    background-color: rgb(0, 0, 200);
+    width: 35%;
+    height: 450px;
+}
+
+#why-mit-header {
+    font-size: 40px;
+}
+
+#why-mit-text {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 40px;
+    line-height: 30px;
+}
