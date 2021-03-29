@@ -114,12 +114,7 @@ a:visited {
     left: 80px;
     border-style: none solid none none;
     border-color: black;
-    border-width: 2px;
-    /* border-top: black 3px;
-    border-bottom: black 3px;
-    border-left: black 3px;
-    border-color: black; */
-     
+    border-width: 2px; 
 }
 
 .img-text {
@@ -155,6 +150,11 @@ a:visited {
     top: 30px;
     color: white;
     font-size: 20px;
+}
+
+.placement-pictures {
+    position: relative;
+    top: 520px;
 }
 
 /* ------------------- ID's ---------------------- */
