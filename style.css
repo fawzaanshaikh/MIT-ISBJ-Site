@@ -109,10 +109,17 @@ a:visited {
 }
 
 .img-symbol {
-    width: 50%;
+    width: 580px;
     position: relative;
     left: 80px;
-
+    border-style: none solid none none;
+    border-color: black;
+    border-width: 2px;
+    /* border-top: black 3px;
+    border-bottom: black 3px;
+    border-left: black 3px;
+    border-color: black; */
+     
 }
 
 .img-text {
