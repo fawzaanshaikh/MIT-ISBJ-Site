@@ -181,6 +181,14 @@ a:visited {
     margin-left: 5px;
 }
 
+.isbj-points {
+    position: relative; 
+    top: 700px; 
+    height: 230px; 
+    width: 90%; 
+    margin: auto;
+}
+
 /* ------------------- ID's ---------------------- */
 
 #header-para {
