@@ -40,10 +40,6 @@ nav li a {
     color: white;
 }
 
-button {
-    filter: drop-shadow(0 0 0.65rem #999);
-}
-
 section {
     float: left;
 }
@@ -155,6 +151,34 @@ a:visited {
 .placement-pictures {
     position: relative;
     top: 520px;
+}
+
+.admissions-open {
+    position: relative;
+    top: 650px;
+    width: 100%; 
+    height: 150px; 
+    background-color: rgb(0, 0, 190);
+}
+
+.admissions-open-content {
+    position: relative;
+    top: 45px;
+    width: 1400px;
+    height: inherit;
+    margin: auto;
+    text-align: center;
+}
+
+.admissions-open-button {
+    position: relative;
+    top: -5px;
+    background-color: white; 
+    font-size: 27px;
+    font-weight: 700;
+    padding: 7px;
+    border: transparent;
+    margin-left: 5px;
 }
 
 /* ------------------- ID's ---------------------- */
