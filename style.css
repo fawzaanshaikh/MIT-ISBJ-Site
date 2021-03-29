@@ -189,6 +189,30 @@ a:visited {
     margin: auto;
 }
 
+.social-media-icons {
+    position: relative;
+    top: 20px;
+    height: 50px;
+}
+
+.fb {
+    position: absolute;
+}
+
+.insta {
+    position: absolute;
+    margin-left: 50px;
+}
+
+.yt {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
 /* ------------------- ID's ---------------------- */
 
 #header-para {
@@ -428,4 +452,33 @@ a:visited {
     left: 1030px;
     height: 90px;
     width: 210px;
+}
+
+#footer {
+    position: relative;
+    top: 800px;
+    background-color: black;
+    height: 430px;
+}
+
+#footer-links-and-info {
+    position: relative;
+    top: 100px;
+    font-size: 18px;
+}
+
+#footer-mit-info {
+    width: 50%;
+}
+
+#footer-links {
+    width: 50%;
+}
+
+#links-1 {
+    width: 50%;
+}
+
+#links-2 {
+    width: 50%;
 }
