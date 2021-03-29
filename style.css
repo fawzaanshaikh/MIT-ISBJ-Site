@@ -104,7 +104,8 @@ a:visited {
 
 .container {
     position: relative;
-    top: 450px;
+    top: 250px;
+    height: 300px;
 }
 
 .img-symbol {
@@ -125,7 +126,28 @@ a:visited {
 
 .aesthetic-background {
     position: relative;
-    top: 100px;
+    top: 400px;
+}
+
+.square-image {
+    height: 90px;
+    width: 90px;
+}
+
+.square-text {
+    position: relative;
+    top: -90px;
+    color: white;
+    font-size: 23px;
+    margin-left: 100px;
+}
+
+.smaller-text {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    color: white;
+    font-size: 20px;
 }
 
 /* ------------------- ID's ---------------------- */
@@ -335,4 +357,36 @@ a:visited {
 #mit-history {
     padding-left: 0px;
     padding-right: 80px;
+}
+
+#square-1 {
+    position: absolute;
+    top: 90px;
+    left: 160px;
+    height: 90px;
+    width: 210px;
+}
+
+#square-2 {
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    height: 90px;
+    width: 210px;
+}
+
+#square-3 {
+    position: absolute;
+    top: 90px;
+    left: 740px;
+    height: 90px;
+    width: 210px;
+}
+
+#square-4 {
+    position: absolute;
+    top: 90px;
+    left: 1030px;
+    height: 90px;
+    width: 210px;
 }
