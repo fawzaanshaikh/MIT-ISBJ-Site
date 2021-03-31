@@ -151,6 +151,9 @@ a:visited {
 .placement-pictures {
     position: relative;
     top: 520px;
+    height: 120px; 
+    width: 1200px;
+    margin: auto;
 }
 
 .admissions-open {
@@ -168,6 +171,11 @@ a:visited {
     height: inherit;
     margin: auto;
     text-align: center;
+}
+
+.admissions-open-text {
+    color: white; 
+    font-size: 40px;
 }
 
 .admissions-open-button {
@@ -419,7 +427,7 @@ a:visited {
 
 #mit-history {
     padding-left: 0px;
-    padding-right: 80px;
+    padding-right: 10%;
 }
 
 #square-1 {
@@ -481,4 +489,113 @@ a:visited {
 
 #links-2 {
     width: 50%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1500px) {
+    #first-pic {
+        position: relative;
+        margin-right: 2%;
+        left: -20px;
+        height: 90px;
+        width: 100px;
+    }
+
+    #second-pic {
+        position: relative;
+        right: 5px;
+        margin-left: 2%;
+        height: 80px;
+        width: 170px;
+    }
+
+    #mit-isbj-header {
+        position: relative;
+        top: -60px;
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    #mit-adt-header {
+        position: relative;
+        top: -50px;
+        font-size: 22px;
+        font-weight: 100;
+        color: rgb(100, 100, 100);
+    }
+
+    #mit-history {
+        padding-left: 10%;
+        padding-right: 1%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .reason {
+        position: relative;
+        top: -30px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    nav li {
+        display: inline;
+        margin-right: 50px;
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    #why-mit-text {
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 40px;
+        line-height: 40px;
+    }
+    
+    .reason {
+        position: relative;
+        top: -30px;
+        font-size: 18px;
+    }
+
+    #mit-history {
+        padding-left: 30%;
+        padding-right: 1%;
+        font-size: 15px;
+    }
+
+    #square-1 {
+        left: 100px;
+    }
+    
+    #square-2 {
+        left: 390px;
+    }
+    
+    #square-3 {
+        left: 680px;
+    }
+    
+    #square-4 {
+        left: 970px;
+    }
+
+    .admissions-open {
+        height: 100px;
+    }
+
+    .admissions-open-content {
+        top: 25px;
+    }
+
+    .admissions-open-text {
+        font-size: 30px;
+    }
+
+    .admissions-open-button { 
+        font-size: 20px;
+    }
 }
