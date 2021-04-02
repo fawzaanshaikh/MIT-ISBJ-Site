@@ -511,18 +511,11 @@ a:visited {
     }
 
     #mit-isbj-header {
-        position: relative;
-        top: -60px;
         font-size: 25px;
-        font-weight: 100;
     }
 
     #mit-adt-header {
-        position: relative;
-        top: -50px;
         font-size: 22px;
-        font-weight: 100;
-        color: rgb(100, 100, 100);
     }
 
     #mit-history {
@@ -533,32 +526,34 @@ a:visited {
 
 @media only screen and (max-width: 1400px) {
     .reason {
-        position: relative;
-        top: -30px;
         font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 1300px) {
     nav li {
-        display: inline;
-        margin-right: 50px;
-        color: white;
         font-size: 20px;
-        font-weight: 300;
-    }
-    
-    #why-mit-text {
-        font-size: 20px;
-        font-weight: 300;
-        margin-top: 40px;
-        line-height: 40px;
     }
     
     .reason {
-        position: relative;
-        top: -30px;
         font-size: 18px;
+    }
+
+    .admissions-open-content {
+        top: 25px;
+    }
+
+    .admissions-open-text {
+        font-size: 30px;
+    }
+
+    .admissions-open-button { 
+        font-size: 20px;
+    }
+
+    #why-mit-text {
+        font-size: 20px;
+        line-height: 40px;
     }
 
     #mit-history {
@@ -585,17 +580,5 @@ a:visited {
 
     .admissions-open {
         height: 100px;
-    }
-
-    .admissions-open-content {
-        top: 25px;
-    }
-
-    .admissions-open-text {
-        font-size: 30px;
-    }
-
-    .admissions-open-button { 
-        font-size: 20px;
     }
 }
