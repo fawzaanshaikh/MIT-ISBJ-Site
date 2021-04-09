@@ -406,6 +406,10 @@ a:visited {
     filter: drop-shadow(0 0 0.65rem #999);
 }
 
+#view-our-gallery {
+    display: none;
+}
+
 #why-mit-div {
     position: relative;
     top: 120px;
@@ -676,7 +680,7 @@ a:visited {
     #courses-div {
         display: block;
         height: 350px;
-        width: 900px;
+        width: 450px;
         margin: auto;
         margin-top: 30px;
     }
@@ -698,7 +702,7 @@ a:visited {
     #m-arts-header {
         display: block;
         position: absolute;
-        left: 3%;
+        left: 5%;
         top: 330px;
         margin-left: 0px;
         height: 35px;
@@ -724,14 +728,39 @@ a:visited {
     #m-arts-content {
         display: block;
         position: absolute;
-        left: 3%;
+        left: 5%;
         margin-left: 0px;
         height: 270px;
         width: 450px;
         background-color: rgb(220, 220, 220);
         margin-top: 365px;
     }
+
+    #gallery-buttons {
+        display: block;
+        width: 400px;
+    }
+
+    #register-media-career {
+        position: relative;
+        top: 750px;
+        left: 10%; 
+    }
+
+    #photo-gallery {
+        position: relative;
+        top: 750px;
+        left: 10%;
+        margin-left: 0px;
+    }
     
+    #view-our-gallery {
+        display: block;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+    }
 
     footer {
         display: none;
