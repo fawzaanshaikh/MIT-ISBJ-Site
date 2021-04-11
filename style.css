@@ -690,7 +690,7 @@ a:visited {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1200px) {
     
     /* --------------- Elements --------------- */
     
@@ -723,12 +723,21 @@ a:visited {
     .reason {
         position: relative;
         top: -20px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .reason-pic {
         height: 60px;
         width: 60px;
+    }
+
+    .read-more-link {
+        position: relative;
+        top: 100px;
+        left: 300px;
+        font-weight: 700;
+        font-size: 19px;
+        color: blue;
     }
 
     /* --------------- ID's --------------- */
@@ -799,7 +808,7 @@ a:visited {
         position: relative;
         display: block;
         height: 635px;
-        width: 450px;
+        width: 420px;
         margin: auto;
     }
 
@@ -807,14 +816,14 @@ a:visited {
         position: relative;
         top: 25px;
         height: 305px;
-        width: 450px;
+        width: 420px;
     }
 
     #b-arts-header {
         position: relative;
         display: block;
         height: 35px;
-        width: 450px;
+        width: 420px;
         padding-top: 3px;
         background-color: black;
         color: white;
@@ -828,7 +837,7 @@ a:visited {
         position: relative;
         margin-left: 0px;
         height: 35px;
-        width: 450px;
+        width: 420px;
         padding-top: 3px;
         background-color: rgb(0, 0, 190);
         color: white;
@@ -841,7 +850,7 @@ a:visited {
         display: block;
         position: relative;
         height: 270px;
-        width: 450px;
+        width: 420px;
         background-color: rgb(240, 240, 240);
         margin-top: 0px;
     }
@@ -850,8 +859,9 @@ a:visited {
         display: block;
         position: absolute;
         margin-left: 0px;
+        margin-top: 1px;
         height: 270px;
-        width: 450px;
+        width: 420px;
         background-color: rgb(220, 220, 220);
     }
 
@@ -865,11 +875,13 @@ a:visited {
 
     #register-media-career {
         position: relative;
+        width: 250px;
         margin: auto;
     }
 
     #photo-gallery {
         position: relative;
+        width: 250px;
         margin: auto;
     }
     
@@ -881,7 +893,8 @@ a:visited {
         width: 100%;
         text-align: center;
         background-color: rgb(220, 220, 220);
-        font-size: 25px;
+        font-size: 22px;
+        padding-top: 10px;
     }
 
     #why-mit-div {
@@ -908,7 +921,7 @@ a:visited {
     }
     
     #why-mit-text {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 300;
         margin-top: 40px;
         margin-right: 50px;
@@ -916,89 +929,6 @@ a:visited {
     }
 
         /* --------------- Second Half --------------- */
-
-    .social-media-icons {
-        display: block;
-        position: relative;
-        top: 20px;
-        height: 50px;
-    }
-    
-    .fb {
-        position: absolute;
-    }
-    
-    .insta {
-        position: absolute;
-        margin-left: 50px;
-    }
-    
-    .yt {
-        position: absolute;
-        margin-left: 100px;
-    }
-
-    #footer {
-        position: relative;
-        top: 600px;
-        background-color: black;
-        height: 700px;
-    }
-    
-    #footer-links-and-info {
-        display: block;
-        position: relative;
-        top: 100px;
-        height: 550px;
-        font-size: 18px;
-    }
-
-    #address {
-        color: white; 
-        margin-left: 0px; 
-        line-height: 30px;
-    }
-    
-    #numbers {
-        color: white; 
-        margin-left: 0px; 
-        line-height: 30px;
-    }
-    
-    #footer-mit-info {
-        height: 300px;
-        width: 100%;
-        text-align: center;
-    }
-    
-    #footer-links {
-        width: 100%;
-    }
-    
-    #links-1 {
-        width: 100%;
-        text-align: center;
-        margin-left: 0px;
-    }
-
-    #links-1-text {
-        color: white; 
-        margin-left: 0px; 
-        line-height: 30px;
-    }
-    
-    #links-2 {
-        width: 100%;
-        text-align: center;
-        margin-left: 0px;
-        margin-top: 50px;
-    }
-
-    #links-2-text {
-        color: white; 
-        margin-left: 0px; 
-        line-height: 30px;
-    }
 
     .container {
         display: block;
@@ -1026,7 +956,7 @@ a:visited {
         position: relative;
         top: 30px;
         margin: auto;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 25px;
     }
 
@@ -1185,6 +1115,27 @@ a:visited {
         list-style-type: none;
     }
 
+    .social-media-icons {
+        display: block;
+        position: relative;
+        top: 20px;
+        height: 50px;
+    }
+    
+    .fb {
+        position: absolute;
+    }
+    
+    .insta {
+        position: absolute;
+        margin-left: 50px;
+    }
+    
+    .yt {
+        position: absolute;
+        margin-left: 100px;
+    }
+
 
     #mit-history {
         padding: 0;
@@ -1228,5 +1179,68 @@ a:visited {
         left: 300px;
         height: 60px;
         width: 210px;
+    }
+
+    #footer {
+        position: relative;
+        top: 600px;
+        background-color: black;
+        height: 700px;
+        font-size: 18px;
+    }
+    
+    #footer-links-and-info {
+        display: block;
+        position: relative;
+        top: 100px;
+        height: 550px;
+        font-size: 18px;
+    }
+
+    #address {
+        color: white; 
+        margin-left: 0px; 
+        line-height: 30px;
+    }
+    
+    #numbers {
+        color: white; 
+        margin-left: 0px; 
+        line-height: 30px;
+    }
+    
+    #footer-mit-info {
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #footer-links {
+        width: 100%;
+    }
+    
+    #links-1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #links-1-text {
+        color: white; 
+        margin-left: 0px; 
+        line-height: 30px;
+    }
+    
+    #links-2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    #links-2-text {
+        color: white; 
+        margin-left: 0px; 
+        line-height: 30px;
     }
 }
