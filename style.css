@@ -656,24 +656,29 @@ a:visited {
 
     #download-apply-buttons {
         display: block;
+        height: 90px;
+        width: 339px;
+        position: relative;
+        top: 90px;
+        margin: auto;
     }
 
     #download-brochure-button {
         position: absolute;
-        top: 70px;
-        left: 10%;
+        top: 0px;
+        /* left: 10%; */
     }
     
     #apply-now-button{
         position: absolute;
-        top: 120px;
-        left: 10%;
+        top: 50px;
+        /* left: 10%; */
         margin-left: 0px;
     }
 
     #courses-header {
         text-align: center;
-        margin-top: 250px;
+        margin-top: 150px;
         font-size: 30px;
     }
 
@@ -744,13 +749,13 @@ a:visited {
     #register-media-career {
         position: relative;
         top: 750px;
-        left: 10%; 
+        left: 13%; 
     }
 
     #photo-gallery {
         position: relative;
         top: 750px;
-        left: 10%;
+        left: 13%;
         margin-left: 0px;
     }
     
@@ -758,8 +763,9 @@ a:visited {
         display: block;
         height: 40px;
         width: 100%;
+        margin-top: 400px;
         text-align: center;
-        font-size: 23px;
+        font-size: 20px;
     }
 
     footer {
