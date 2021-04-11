@@ -238,6 +238,30 @@ a:visited {
     margin: auto;
 }
 
+.isbj-points-text {
+    width: 50%;
+}
+
+.isbj-points-list {
+    position: relative; 
+    top: 55px; 
+    left: 200px; 
+    line-height: 35px; 
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+.isbj-dome {
+    width: 50%;
+}
+
+.isbj-dome-pic {
+    position: relative; 
+    left: 150px;
+    height: 230px; 
+    width: 280px;
+}
+
 .social-media-icons {
     position: relative;
     top: 20px;
@@ -869,6 +893,10 @@ a:visited {
 
         /* --------------- Second Half --------------- */
 
+    footer {
+        display: none;
+    }
+
     .container {
         display: block;
         height: 700px;
@@ -1014,6 +1042,47 @@ a:visited {
         border: transparent;
         margin: auto;
     }
+    
+    .isbj-points {
+        display: block;
+        position: relative; 
+        top: 550px; 
+        height: 400px; 
+        width: 100%;
+    }
+
+    .isbj-dome {
+        position: absolute;
+        height: 180px; 
+        width: 200px;
+    }
+    
+    .isbj-dome-pic {
+        position: relative; 
+        left: 150px;
+        height: 180px; 
+        width: 200px;
+    }
+    
+    .isbj-points-text {
+        position: relative;
+        top: 150px;
+        height: 250px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .isbj-points-list {
+        position: relative; 
+        top: 55px; 
+        left: 0px;
+        width: 100%; 
+        line-height: 35px; 
+        font-size: 18px; 
+        font-weight: 500;
+        list-style-type: none;
+    }
+
 
     #mit-history {
         padding: 0;
@@ -1057,9 +1126,5 @@ a:visited {
         left: 300px;
         height: 60px;
         width: 210px;
-    }
-
-    footer {
-        display: none;
     }
 }
