@@ -108,9 +108,16 @@ a:visited {
     width: 580px;
     position: relative;
     left: 80px;
+    height: 300px;
+    width: 550px;
     border-style: none solid none none;
     border-color: black;
     border-width: 2px; 
+}
+
+.mit-symbol {
+    height: 300px;
+    width: 550px;
 }
 
 .img-text {
@@ -125,6 +132,11 @@ a:visited {
 .aesthetic-background {
     position: relative;
     top: 400px;
+    background-image: url(Images/planet.png); 
+    background-attachment: fixed; 
+    height: 270px; 
+    width: 1400px; 
+    margin: auto;
 }
 
 .square-image {
@@ -828,8 +840,45 @@ a:visited {
 
         /* --------------- Second Half --------------- */
 
-    
-        
+    .container {
+        display: block;
+        height: 650px;
+        top: 150px;
+    }
+
+    .img-symbol {
+        display: block;
+        /* left: 0px; */
+        height: 200px;
+        width: 350px;
+        border: none;
+        margin: auto;
+    }
+
+    .mit-symbol {
+        position: relative;
+        margin: auto;
+        height: 200px;
+        width: 350px;
+    }
+
+    .img-text {
+        width: 100%;
+        position: relative;
+        top: 30px;
+        margin: auto;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #mit-history {
+        padding: 0;
+        margin-left: 90px; 
+        margin-right: 20px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
     footer {
         display: none;
     }
