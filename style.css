@@ -558,6 +558,18 @@ a:visited {
     font-size: 18px;
 }
 
+#address {
+    color: white; 
+    margin-left: 100px; 
+    line-height: 30px;
+}
+
+#numbers {
+    color: white; 
+    margin-left: 100px; 
+    line-height: 30px;
+}
+
 #footer-mit-info {
     width: 50%;
 }
@@ -570,8 +582,20 @@ a:visited {
     width: 50%;
 }
 
+#links-1-text {
+    color: white; 
+    margin-left: 100px; 
+    line-height: 30px;
+}
+
 #links-2 {
     width: 50%;
+}
+
+#links-2-text {
+    color: white; 
+    margin-left: 100px; 
+    line-height: 30px;
 }
 
 /* Media Queries */
@@ -893,8 +917,87 @@ a:visited {
 
         /* --------------- Second Half --------------- */
 
-    footer {
-        display: none;
+    .social-media-icons {
+        display: block;
+        position: relative;
+        top: 20px;
+        height: 50px;
+    }
+    
+    .fb {
+        position: absolute;
+    }
+    
+    .insta {
+        position: absolute;
+        margin-left: 50px;
+    }
+    
+    .yt {
+        position: absolute;
+        margin-left: 100px;
+    }
+
+    #footer {
+        position: relative;
+        top: 600px;
+        background-color: black;
+        height: 700px;
+    }
+    
+    #footer-links-and-info {
+        display: block;
+        position: relative;
+        top: 100px;
+        height: 550px;
+        font-size: 18px;
+    }
+
+    #address {
+        color: white; 
+        margin-left: 0px; 
+        line-height: 30px;
+    }
+    
+    #numbers {
+        color: white; 
+        margin-left: 0px; 
+        line-height: 30px;
+    }
+    
+    #footer-mit-info {
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #footer-links {
+        width: 100%;
+    }
+    
+    #links-1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #links-1-text {
+        color: white; 
+        margin-left: 0px; 
+        line-height: 30px;
+    }
+    
+    #links-2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    #links-2-text {
+        color: white; 
+        margin-left: 0px; 
+        line-height: 30px;
     }
 
     .container {
@@ -905,7 +1008,6 @@ a:visited {
 
     .img-symbol {
         display: block;
-        /* left: 0px; */
         height: 200px;
         width: 350px;
         border: none;
@@ -1078,7 +1180,7 @@ a:visited {
         left: 0px;
         width: 100%; 
         line-height: 35px; 
-        font-size: 18px; 
+        font-size: 17px; 
         font-weight: 500;
         list-style-type: none;
     }
