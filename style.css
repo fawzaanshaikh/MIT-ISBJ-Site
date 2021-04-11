@@ -139,6 +139,12 @@ a:visited {
     margin: auto;
 }
 
+.aesthetic-content {
+    height: 100px; 
+    width: 1000px; 
+    margin: auto;
+}
+
 .square-image {
     height: 90px;
     width: 90px;
@@ -842,7 +848,7 @@ a:visited {
 
     .container {
         display: block;
-        height: 650px;
+        height: 700px;
         top: 150px;
     }
 
@@ -871,12 +877,82 @@ a:visited {
         line-height: 25px;
     }
 
+    .aesthetic-background {
+        display: block;
+        top: 250px;
+        height: 300px;
+        width: 500px;
+    }
+
+    .aesthetic-content {
+        display: block;
+        height: 300px;
+        width: 500px;
+    }
+
+    .square-image {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .square-text {
+        position: relative;
+        top: -65px;
+        color: white;
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    
+    .smaller-text {
+        position: absolute;
+        left: 70px;
+        top: 20px;
+        color: white;
+        font-size: 18px;
+    }
+
     #mit-history {
         padding: 0;
         margin-left: 90px; 
         margin-right: 20px;
         font-size: 22px;
         line-height: 30px;
+    }
+
+    #square-1 {
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        height: 60px;
+        width: 210px;
+    }
+    
+    #square-2 {
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 300px;
+        height: 60px;
+        width: 210px;
+    }
+    
+    #square-3 {
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        height: 60px;
+        width: 210px;
+    }
+    
+    #square-4 {
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: 300px;
+        height: 60px;
+        width: 210px;
     }
 
     footer {
